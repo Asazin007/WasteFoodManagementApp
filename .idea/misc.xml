@@ -13,6 +13,7 @@
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_donate.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_team.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/drawer_layout.xml" value="0.203125" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/row.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.20416666666666666" />
@@ -21,7 +22,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
