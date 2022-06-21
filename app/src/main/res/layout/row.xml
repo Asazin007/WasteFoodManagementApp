@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F45289">
+
+
+    <ImageView
+        android:id="@+id/location_img"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ngo" />
+
+    <TextView
+        android:id="@+id/ngo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7sp"
+
+        android:text="THE AKSHAY PATRA FOUNDATION"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/location_img" />
+
+    <TextView
+        android:id="@+id/locationtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phagwada, Punjab"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="5sp"
+        android:gravity="bottom"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ngo_name" />
+
+    <Button
+        android:id="@+id/callbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:drawableLeft="@drawable/ic_baseline_call_24"
+        android:layout_marginTop="8sp"
+        android:backgroundTint="@color/purple_200"
+        app:layout_constraintEnd_toStartOf="@+id/chatbtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationtxt" />
+
+    <Button
+        android:id="@+id/chatbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        android:backgroundTint="@color/purple_200"
+        android:drawableLeft="@drawable/icon2"
+        android:layout_marginTop="8sp"
+        app:layout_constraintStart_toEndOf="@id/callbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationtxt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
