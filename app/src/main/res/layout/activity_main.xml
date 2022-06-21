@@ -3,100 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-
     android:layout_height="match_parent"
-    android:backgroundTint="#401D1D"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/app_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="120sp"
-        android:fontFamily="@font/nosifer"
-        android:text="Waste Food Management"
-        android:textAlignment="center"
-        android:textColor="#43A047"
-        android:textSize="35sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/view"
-        android:layout_width="wrap_content"
-
-        android:layout_height="225dp"
-        android:background="#0A5C81"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/login_with_phone"
-        android:layout_width="wrap_content"
-        android:layout_height="60sp"
-        android:layout_marginBottom="130sp"
-        android:backgroundTint="@color/white"
-
-
-        android:drawableLeft="@drawable/ic_mob"
-        android:drawableTint="@color/black"
-        android:fontFamily="sans-serif"
-        android:text="Continue with Phone"
-        android:textColor="@color/black"
-
-
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/login_with_google"
-        android:layout_width="wrap_content"
-        android:layout_height="60sp"
-        android:layout_marginBottom="60sp"
-        android:backgroundTint="@color/white"
-        android:drawableLeft="@android:drawable/ic_dialog_email"
-
-        android:drawableTint="@color/black"
-        android:fontFamily="sans-serif"
-        android:text="Continue with E-mail"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-
-
-    <TextView
-        android:id="@+id/txtupper_content"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="13sp"
-        android:textSize="16sp"
-        android:fontFamily="cursive"
-        android:text="Someone Is Dying For The Food You Are Throwing Away"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/app_name" />
-
     <ImageView
-        android:id="@+id/cancel_btn"
-        android:layout_width="23dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="4sp"
-        android:layout_marginTop="4sp"
+        android:id="@+id/front_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-
-        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
-
+        app:srcCompat="@drawable/wastemain" />
 </androidx.constraintlayout.widget.ConstraintLayout>
