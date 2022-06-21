@@ -30,7 +30,7 @@
 
 
             app:subtitleTextColor="@color/black"
-            app:title="Badarka, Azamgarh"
+            app:title="Uttar Pradesh"
             app:titleMargin="0sp"
             app:titleTextColor="@color/black" />
 
