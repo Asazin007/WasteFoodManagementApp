@@ -23,14 +23,14 @@
             android:background="#FFFFFF"
             android:theme="@style/CardView.Dark"
 
-            app:navigationIcon="@drawable/ic_baseline_location_on_24"
+
             app:navigationIconTint="@color/black"
-            app:subtitle="My location"
+
             app:subtitleTextAppearance="@style/TextAppearance.AppCompat.Small"
 
 
             app:subtitleTextColor="@color/black"
-            app:title="Uttar Pradesh"
+
             app:titleMargin="0sp"
             app:titleTextColor="@color/black" />
 
