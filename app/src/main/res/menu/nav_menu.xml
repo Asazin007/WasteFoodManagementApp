@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Home"
+        android:enabled="true"
+        android:icon="@drawable/icon1"
+        android:title="Home"
+
+        />
+    <item
+        android:id="@+id/chat"
+        android:enabled="true"
+        android:icon="@drawable/icon2"
+        android:title="Chats"
+
+        />
+    <item
+        android:id="@+id/noti"
+        android:enabled="true"
+        android:icon="@drawable/icon3"
+        android:title="Notification"
+
+
+        />
+    <item
+        android:id="@+id/account"
+        android:enabled="true"
+        android:icon="@drawable/icon4"
+        android:title="Account"
+
+        />
+    <item
+        android:id="@+id/team"
+        android:enabled="true"
+        android:icon="@drawable/ic_team"
+        android:title="From Team"
+
+        />
+
+</menu>
