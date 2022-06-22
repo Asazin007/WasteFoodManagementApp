@@ -2,6 +2,11 @@
     <string name="app_name">WasteFoodManagementApp</string>
     <string name="food_waste_data">Globally, around 14 percent of food produced is lost between harvest and retail. Significant quantities are also wasted in retail and at the consumption level. An estimated 17 percent of total global food production is wasted.</string>
     <string name="location">Phagwara, Punjab</string>
-    <string name="receive">Receive</string>
-    <string name="donated">Donated</string>
+    <string name="Shoaib">Shoaib Moona</string>
+    <string name="Asim">Sayed Mohd Asim</string>
+    <string name="Devesh">Devesh Pandey</string>
+    <string name="Jayveer">Jayveer Mall</string>
+    <string name="Ankit">Ankit Kumar</string>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
 </resources>
