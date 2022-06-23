@@ -67,6 +67,7 @@ class TeamActivity : AppCompatActivity() {
             }
             true
         }
+        getSupportActionBar()?.show()
 
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
