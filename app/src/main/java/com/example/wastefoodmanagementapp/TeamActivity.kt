@@ -8,6 +8,7 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
 
 class TeamActivity : AppCompatActivity() {
@@ -16,6 +17,7 @@ class TeamActivity : AppCompatActivity() {
     lateinit var drawerLayout: DrawerLayout
     lateinit var navigationView: NavigationView
     lateinit var toggle: ActionBarDrawerToggle
+    lateinit var bottomNavigationView: BottomNavigationView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,6 +25,7 @@ class TeamActivity : AppCompatActivity() {
 
         //-----------------------DrawerLayout And Navigation View---------------------------------
         drawerLayout = findViewById(R.id.drawerLayout)
+        bottomNavigationView=findViewById(R.id.bottom_navigation)
         navigationView = findViewById(R.id.navigationView)
         toggle = ActionBarDrawerToggle(this@TeamActivity, drawerLayout, R.string.Open, R.string.Close)
         drawerLayout.addDrawerListener(toggle)
@@ -49,6 +52,22 @@ class TeamActivity : AppCompatActivity() {
             }
             true
         }
+
+        //---------------------bottom nav listner
+        bottomNavigationView.setOnItemSelectedListener {
+            when(it.itemId){
+                R.id.team->{
+                    var team_intent = Intent(this, TeamActivity::class.java)
+                    startActivity(team_intent)
+                }
+                R.id.home_menu->{
+                    var home_intent = Intent(this, MainActivity2::class.java)
+                    startActivity(home_intent)
+                }
+            }
+            true
+        }
+
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.nav_menu, menu)
