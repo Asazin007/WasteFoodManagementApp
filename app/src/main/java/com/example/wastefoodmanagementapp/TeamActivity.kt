@@ -60,7 +60,7 @@ class TeamActivity : AppCompatActivity() {
             return true
         }
         when (item.itemId) {
-            R.id.Home -> {
+            R.id.home_menu -> {
                 Toast.makeText(this@TeamActivity,"You're Home", Toast.LENGTH_SHORT).show()
                 var intent = Intent(this@TeamActivity, MainActivity2::class.java)
                 startActivity(intent)

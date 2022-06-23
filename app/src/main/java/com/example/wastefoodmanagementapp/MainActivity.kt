@@ -6,9 +6,12 @@ import android.os.Handler
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
 class MainActivity : AppCompatActivity() {
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,5 +32,7 @@ class MainActivity : AppCompatActivity() {
             finish()
         }, 3000)
 
-    }
+
+            }
+
 }
