@@ -20,7 +20,8 @@
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".TeamActivity"
-            android:exported="false" />
+            android:exported="false"
+            />
         
         <activity
             android:name=".MainActivity"
