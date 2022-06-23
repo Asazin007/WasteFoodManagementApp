@@ -10,10 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WasteFoodManagementApp">
         <activity
+            android:name=".ReceiveActivity"
+            android:exported="false" />
+        <activity
             android:name=".DonateActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustPan" />
-
         <activity
             android:name=".MainActivity2"
             android:exported="false"
@@ -21,14 +23,13 @@
         <activity
             android:name=".TeamActivity"
             android:exported="false" />
-        
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

@@ -23,6 +23,10 @@ class MainActivity2 : AppCompatActivity() {
             var intent1= Intent(this@MainActivity2,DonateActivity::class.java)
             startActivity(intent1)
         }
+        recievebtn.setOnClickListener {
+            var intent2=Intent(this@MainActivity2,ReceiveActivity::class.java)
+            startActivity(intent2)
+        }
 
 
         //-----------------bottom nav
