@@ -9,6 +9,6 @@
     <string name="Ankit">Ankit Kumar</string>
     <string name="Open">open</string>
     <string name="Close">close</string>
-    <string name="receive" >Receive</string>
-    <string name="donated" >Donate</string>
+    <string name="receive">Receive</string>
+    <string name="donated">Donate</string>
 </resources>

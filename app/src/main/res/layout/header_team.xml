@@ -8,22 +8,26 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="255dp"
+        android:layout_width="wrap_content"
         android:layout_height="217dp"
         android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ngo" />
+        app:srcCompat="@drawable/wastemain" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="TextView"
+        android:background="#B797FF90"
+        android:fontFamily="serif"
+        android:text="Team Behind the App"
+        android:textColor="#191818"
+        android:textSize="21sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 

@@ -35,7 +35,7 @@
         android:id="@+id/team"
         android:enabled="true"
         android:icon="@drawable/ic_team"
-        android:title="From Team"
+        android:title="Team" />
 
         />
 
