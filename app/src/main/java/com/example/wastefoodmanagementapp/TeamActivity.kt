@@ -9,6 +9,8 @@ import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 
 class TeamActivity : AppCompatActivity() {
@@ -18,11 +20,17 @@ class TeamActivity : AppCompatActivity() {
     lateinit var navigationView: NavigationView
     lateinit var toggle: ActionBarDrawerToggle
     lateinit var bottomNavigationView: BottomNavigationView
+    lateinit var fab: FloatingActionButton
+    lateinit var fab_recive: ExtendedFloatingActionButton
+    lateinit var fab_donate: ExtendedFloatingActionButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_team)
-
+//----------------------------------------fab
+        fab=findViewById(R.id.floatingActionButton)
+        fab_donate=findViewById(R.id.extendedFab_donate)
+        fab_recive=findViewById(R.id.extendedFab_receive)
         //-----------------------DrawerLayout And Navigation View---------------------------------
         drawerLayout = findViewById(R.id.drawerLayout)
         bottomNavigationView=findViewById(R.id.bottom_navigation)
@@ -69,6 +77,28 @@ class TeamActivity : AppCompatActivity() {
         }
         getSupportActionBar()?.show()
 
+
+
+        //        -------------------------fab
+        fab_donate.hide()
+        fab_recive.hide()
+        var flag = -1
+        fab.setOnClickListener {
+            if(flag==-1){
+                fab_recive.show()
+                fab_donate.show()
+
+                flag=1
+            }
+            else{
+                fab_donate.hide()
+                fab_recive.hide()
+                flag=-1
+            }
+        }
+
+
+
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.nav_menu, menu)
@@ -106,5 +136,9 @@ class TeamActivity : AppCompatActivity() {
 
         }
         return true
+
+
+
+
     }
 }

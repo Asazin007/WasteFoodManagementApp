@@ -31,6 +31,39 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:menu="@menu/nav_menu" />
+<!--       fab -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="18sp"
+            android:layout_marginBottom="18sp"
+            app:borderWidth="0dp"
+            android:backgroundTint="@color/button_color"
+            android:clickable="true"
+            app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_baseline_add_24" />
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15sp"
+            android:clickable="true"
+            android:id="@+id/extendedFab_receive"
+            app:icon="@drawable/ic_recieve"
+            app:layout_constraintEnd_toEndOf="@+id/floatingActionButton"
+            app:layout_constraintBottom_toTopOf="@+id/floatingActionButton"
+            />
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15sp"
+            android:clickable="true"
+            android:id="@+id/extendedFab_donate"
+            app:icon="@drawable/ic_donate"
+            app:layout_constraintEnd_toEndOf="@+id/floatingActionButton"
+            app:layout_constraintBottom_toTopOf="@+id/extendedFab_receive"
+            />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.navigation.NavigationView
@@ -41,6 +74,7 @@
         android:background="@color/teal_200"
         app:headerLayout="@layout/header_team"
         app:menu="@menu/draw_menu" />
+
 
 
 </androidx.drawerlayout.widget.DrawerLayout>
