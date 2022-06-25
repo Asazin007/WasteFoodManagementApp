@@ -48,7 +48,7 @@
         app:cornerRadius="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
-
+<!--button-->
     <com.google.android.material.button.MaterialButton
         android:id="@+id/recievebtn"
         android:layout_width="wrap_content"
@@ -82,8 +82,8 @@
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="18sp"
+        android:layout_marginBottom="18sp"
         app:borderWidth="0dp"
         android:backgroundTint="@color/button_color"
         android:clickable="true"
@@ -91,6 +91,29 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_baseline_add_24" />
 
+
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:clickable="true"
+        android:id="@+id/extendedFab_receive"
+        app:icon="@drawable/ic_recieve"
+        app:layout_constraintEnd_toEndOf="@+id/floatingActionButton"
+        app:layout_constraintBottom_toTopOf="@+id/floatingActionButton"
+         />
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:clickable="true"
+        android:id="@+id/extendedFab_donate"
+        app:icon="@drawable/ic_donate"
+        app:layout_constraintEnd_toEndOf="@+id/floatingActionButton"
+        app:layout_constraintBottom_toTopOf="@+id/extendedFab_receive"
+        />
+    <!--text description-->
     <TextView
         android:id="@+id/textV"
         android:layout_width="match_parent"
@@ -107,6 +130,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/donatebtn" />
 
+
+<!--backgroung image-->
 
     <ImageView
         android:id="@+id/img1"
