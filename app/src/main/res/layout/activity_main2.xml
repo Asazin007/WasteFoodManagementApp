@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_color"
-    tools:context=".MainActivity2"
-    android:padding="20dp">
+    tools:context=".MainActivity2">
     <!--AppBar-->
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"

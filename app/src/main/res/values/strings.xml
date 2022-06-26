@@ -11,4 +11,37 @@
     <string name="Close">close</string>
     <string name="receive">Receive</string>
     <string name="donated">Donate</string>
+
+
+    <!--login page string-->
+    <string name="login_title">Login to app</string>
+    <string name="login_subtitle"><font color="#00C998"><b>login</b> if you already have an account.</font>
+    </string>
+    <string name="login_email">Your email or username</string>
+    <string name="login_password">Enter password</string>
+    <string name="login_forgpass">Forgot password?</string>
+    <!--register page string-->
+    <string name="main_register">Register</string>
+    <string name="reg_title">Create an account</string>
+    <string name="reg_subtitle"><font color="#00C998"><b>Register</b> to get started with the app.</font>
+    </string>
+    <string name="reg_name">Your full name</string>
+    <string name="reg_fullname">Your Full name</string>
+    <string name="reg_email">Your email</string>
+    <string name="reg_username">Your username</string>
+    <string name="reg_password">Your password</string>
+    <string name="reg_confirm_password">Confirm password</string>
+    <string name="reg_lst_text">
+        <font color="#00C998">I already have an account <b>Login</b></font></string>
+
+    <!--mainactivityFirst string-->
+
+    <string name="main_title">Hello You!</string>
+    <string name="main_subtitle">
+        Nice to meet you come and join our community!
+        <br><b>Login</b> if you already have account</br>
+        <br><b>Register</b> to get started with the app.</br>
+    </string>
+
+
 </resources>
