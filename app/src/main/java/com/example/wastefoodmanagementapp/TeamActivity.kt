@@ -19,17 +19,11 @@ class TeamActivity : AppCompatActivity() {
     lateinit var drawerLayout: DrawerLayout
     lateinit var navigationView: NavigationView
     lateinit var toggle: ActionBarDrawerToggle
-    lateinit var bottomNavigationView: BottomNavigationView
-    lateinit var fab: FloatingActionButton
-    lateinit var fab_recive: ExtendedFloatingActionButton
-    lateinit var fab_donate: ExtendedFloatingActionButton
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_team)
-        fab=findViewById(R.id.floatingActionButton)
-        fab_donate=findViewById(R.id.extendedFab_donate)
-        fab_recive=findViewById(R.id.extendedFab_receive)
-        bottomNavigationView=findViewById(R.id.bottom_navigation)
+
         //-----------------------DrawerLayout And Navigation View---------------------------------
         drawerLayout = findViewById(R.id.drawerLayout)
         navigationView = findViewById(R.id.navigationView)
