@@ -31,7 +31,8 @@
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".TeamActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"/>
         <activity
             android:name=".ShoaibActivity"
             android:exported="false"
