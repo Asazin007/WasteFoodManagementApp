@@ -18,8 +18,9 @@
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".MainactivityFirst"
+            android:name=".AccountActivity"
             android:exported="false" />
+<!--        Ankit Activites ends here-->
         <activity
             android:name=".DonateActivity"
             android:exported="false"
