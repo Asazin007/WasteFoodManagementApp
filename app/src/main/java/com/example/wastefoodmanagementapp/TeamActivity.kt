@@ -64,35 +64,6 @@ class TeamActivity : AppCompatActivity() {
             true
         }
 
-        //-----------bottom nav
-        bottomNavigationView.setOnItemSelectedListener {
-            when(it.itemId){
-
-                R.id.home_menu->{
-                    var home_intent = Intent(this, MainActivity2::class.java)
-                    startActivity(home_intent)
-                }
-            }
-            true
-        }
-
-        //        -------------------------fab
-        fab_donate.hide()
-        fab_recive.hide()
-        var flag = -1
-        fab.setOnClickListener {
-            if(flag==-1){
-                fab_recive.show()
-                fab_donate.show()
-
-                flag=1
-            }
-            else{
-                fab_donate.hide()
-                fab_recive.hide()
-                flag=-1
-            }
-        }
 
 
     }
