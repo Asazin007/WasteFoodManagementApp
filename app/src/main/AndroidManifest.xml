@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WasteFoodManagementApp">
         <activity
+            android:name=".mainactivityFirst"
+            android:exported="false" />
+        <activity
             android:name=".DonateActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustPan" />
@@ -20,9 +23,14 @@
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".TeamActivity"
-            android:exported="false"
-            />
-        
+            android:exported="false" />
+        <!--        Activities by Ankit-->
+        <activity
+            android:name=".Loginactivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
