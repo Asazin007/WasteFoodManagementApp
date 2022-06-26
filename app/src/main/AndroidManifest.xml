@@ -9,6 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WasteFoodManagementApp">
+
+        <!--        Activities by Ankit-->
+        <activity
+            android:name=".Loginactivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
         <activity
             android:name=".mainactivityFirst"
             android:exported="false" />
@@ -24,18 +32,35 @@
         <activity
             android:name=".TeamActivity"
             android:exported="false" />
-        <!--        Activities by Ankit-->
         <activity
-            android:name=".Loginactivity"
-            android:exported="false" />
+            android:name=".ShoaibActivity"
+            android:exported="false"
+            android:label="From Shoaib Moona"
+            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"/>
         <activity
-            android:name=".RegisterActivity"
-            android:exported="false" />
+            android:name=".JayActivity"
+            android:exported="false"
+            android:label="From Jayveer Mall"
+            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar" />
+        <activity
+            android:name=".DeveshActivity"
+            android:exported="false"
+            android:label="From Devesh Pandey"
+            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar" />
+        <activity
+            android:name=".AsimActivity"
+            android:exported="false"
+            android:label="From Sayed Mohd Asim"
+            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar" />
+        <activity
+            android:name=".AnkitActivity"
+            android:exported="false"
+            android:label="From Ankit Kumar"
+            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
