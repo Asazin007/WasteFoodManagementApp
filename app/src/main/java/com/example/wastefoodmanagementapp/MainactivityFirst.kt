@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class mainactivityFirst : AppCompatActivity() {
+class MainactivityFirst : AppCompatActivity() {
 
     lateinit var register: Button
     lateinit var login: Button
@@ -18,12 +18,12 @@ class mainactivityFirst : AppCompatActivity() {
         login=findViewById(R.id.main_login)
 
         login.setOnClickListener {
-            var intent= Intent(this@mainactivityFirst,Loginactivity::class.java)
+            var intent= Intent(this@MainactivityFirst,Loginactivity::class.java)
             startActivity(intent)
         }
 
         register.setOnClickListener {
-          var intent= Intent(this@mainactivityFirst,RegisterActivity::class.java)
+          var intent= Intent(this@MainactivityFirst,RegisterActivity::class.java)
             startActivity(intent)
         }
 

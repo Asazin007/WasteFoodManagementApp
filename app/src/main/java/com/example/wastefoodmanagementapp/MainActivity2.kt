@@ -46,7 +46,7 @@ class MainActivity2 : AppCompatActivity() {
                     startActivity(team_intent)
                 }
                 R.id.account ->{
-                    var loginintent=Intent(this,mainactivityFirst::class.java)
+                    var loginintent=Intent(this,MainactivityFirst::class.java)
                     startActivity(loginintent)
                 }
             }

@@ -18,7 +18,7 @@
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".mainactivityFirst"
+            android:name=".MainactivityFirst"
             android:exported="false" />
         <activity
             android:name=".DonateActivity"
