@@ -7,29 +7,16 @@
         <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/drawable-anydpi/icon2.xml" value="0.2465" />
         <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/layout/activity_donate.xml" value="0.25" />
         <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/layout/activity_main2.xml" value="0.16" />
+        <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/layout/activity_main2.xml" value="0.264" />
+        <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/layout/activity_team.xml" value="0.25" />
         <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/layout/row.xml" value="0.25" />
         <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25" />
-        <entry key="..\:/WasteFoodManagementApp/app/src/main/res/drawable/ic_account.xml" value="0.183" />
-        <entry key="..\:/WasteFoodManagementApp/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.183" />
-        <entry key="..\:/WasteFoodManagementApp/app/src/main/res/drawable/ic_circle_account.xml" value="0.183" />
-        <entry key="..\:/WasteFoodManagementApp/app/src/main/res/drawable/ic_email.xml" value="0.183" />
-        <entry key="..\:/WasteFoodManagementApp/app/src/main/res/drawable/ic_lock.xml" value="0.183" />
-        <entry key="..\:/WasteFoodManagementApp/app/src/main/res/layout/activity_donate.xml" value="0.25416666666666665" />
-        <entry key="..\:/WasteFoodManagementApp/app/src/main/res/layout/activity_loginactivity.xml" value="0.25" />
-        <entry key="..\:/WasteFoodManagementApp/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/WasteFoodManagementApp/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
-        <entry key="..\:/WasteFoodManagementApp/app/src/main/res/layout/activity_mainfirst.xml" value="0.25" />
-        <entry key="..\:/WasteFoodManagementApp/app/src/main/res/layout/activity_recieve.xml" value="0.25" />
-        <entry key="..\:/WasteFoodManagementApp/app/src/main/res/layout/activity_regeister.xml" value="0.25" />
-        <entry key="..\:/WasteFoodManagementApp/app/src/main/res/layout/activity_team.xml" value="0.25416666666666665" />
-        <entry key="..\:/WasteFoodManagementApp/app/src/main/res/layout/header_team.xml" value="0.25416666666666665" />
-        <entry key="..\:/WasteFoodManagementApp/app/src/main/res/layout/row.xml" value="0.25416666666666665" />
-        <entry key="..\:/WasteFoodManagementApp/app/src/main/res/menu/nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/menu/nav_menu.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_donate.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

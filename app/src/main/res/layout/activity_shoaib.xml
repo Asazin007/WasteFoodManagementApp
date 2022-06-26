@@ -6,8 +6,8 @@
     android:id="@+id/drawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TeamActivity"
     android:background="@color/white"
+    tools:context=".TeamActivity"
     tools:openDrawer="end">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -35,6 +35,5 @@
         app:headerLayout="@layout/header_team"
         app:menu="@menu/draw_menu"
         app:itemTextColor="@color/black"/>
-
 
 </androidx.drawerlayout.widget.DrawerLayout>

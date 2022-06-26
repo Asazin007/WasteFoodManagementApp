@@ -8,12 +8,9 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
-import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 
-class TeamActivity : AppCompatActivity() {
+class AnkitActivity : AppCompatActivity() {
 
     // Declarations
     lateinit var drawerLayout: DrawerLayout
@@ -22,11 +19,12 @@ class TeamActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_team)
+        setContentView(R.layout.activity_ankit)
         //-----------------------DrawerLayout And Navigation View---------------------------------
         drawerLayout = findViewById(R.id.drawerLayout)
         navigationView = findViewById(R.id.navigationView)
-        toggle = ActionBarDrawerToggle(this@TeamActivity, drawerLayout, R.string.Open, R.string.Close)
+        toggle =
+            ActionBarDrawerToggle(this@AnkitActivity, drawerLayout, R.string.Open, R.string.Close)
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
@@ -34,24 +32,23 @@ class TeamActivity : AppCompatActivity() {
         navigationView.setNavigationItemSelectedListener {
             when (it.itemId) {
                 R.id.asim -> {
-                    var intent = Intent(this@TeamActivity, AsimActivity::class.java)
+                    var intent = Intent(this@AnkitActivity, AsimActivity::class.java)
                     startActivity(intent)
                 }
                 R.id.shoaib -> {
-                    var intent = Intent(this@TeamActivity, ShoaibActivity::class.java)
+                    var intent = Intent(this@AnkitActivity, ShoaibActivity::class.java)
                     startActivity(intent)
                 }
                 R.id.devesh -> {
-                    var intent = Intent(this@TeamActivity, DeveshActivity::class.java)
+                    var intent = Intent(this@AnkitActivity, DeveshActivity::class.java)
                     startActivity(intent)
                 }
                 R.id.jayveer -> {
-                    var intent = Intent(this@TeamActivity, JayActivity::class.java)
+                    var intent = Intent(this@AnkitActivity, JayActivity::class.java)
                     startActivity(intent)
                 }
                 R.id.ankit -> {
-                    var intent = Intent(this@TeamActivity, AnkitActivity::class.java)
-                    startActivity(intent)
+                    Toast.makeText(this@AnkitActivity, "You're already here.", Toast.LENGTH_SHORT).show()
                 }
             }
             true
@@ -68,27 +65,22 @@ class TeamActivity : AppCompatActivity() {
         }
         when (item.itemId) {
             R.id.home_menu -> {
-                Toast.makeText(this@TeamActivity,"You're Home", Toast.LENGTH_SHORT).show()
-                var intent = Intent(this@TeamActivity, MainActivity2::class.java)
+                Toast.makeText(this@AnkitActivity,"You're Home", Toast.LENGTH_SHORT).show()
+                var intent = Intent(this@AnkitActivity, MainActivity2::class.java)
                 startActivity(intent)
             }
             R.id.chat -> {
-                Toast.makeText(this@TeamActivity,"Chats", Toast.LENGTH_SHORT).show()
-//                var intent = Intent(this@TeamActivity, MainActivity2::class.java)
-//                startActivity(intent)
+                Toast.makeText(this@AnkitActivity,"Chats", Toast.LENGTH_SHORT).show()
             }
             R.id.noti -> {
-                Toast.makeText(this@TeamActivity,"Notifications", Toast.LENGTH_SHORT).show()
-//                var intent = Intent(this@TeamActivity, MainActivity2::class.java)
-//                startActivity(intent)
+                Toast.makeText(this@AnkitActivity,"Notifications", Toast.LENGTH_SHORT).show()
             }
             R.id.account -> {
-                Toast.makeText(this@TeamActivity,"Account details", Toast.LENGTH_SHORT).show()
-//                var intent = Intent(this@TeamActivity, MainActivity2::class.java)
-//                startActivity(intent)
+                Toast.makeText(this@AnkitActivity,"Account details", Toast.LENGTH_SHORT).show()
             }
             R.id.team -> {
-                Toast.makeText(this@TeamActivity, "You're already here", Toast.LENGTH_SHORT).show()
+                var intent = Intent(this@AnkitActivity, TeamActivity::class.java)
+                startActivity(intent)
             }
 
         }
