@@ -76,7 +76,8 @@ class AnkitActivity : AppCompatActivity() {
                 Toast.makeText(this@AnkitActivity,"Notifications", Toast.LENGTH_SHORT).show()
             }
             R.id.account -> {
-                Toast.makeText(this@AnkitActivity,"Account details", Toast.LENGTH_SHORT).show()
+                var intent = Intent(this@AnkitActivity, AccountActivity::class.java)
+                startActivity(intent)
             }
             R.id.team -> {
                 var intent = Intent(this@AnkitActivity, TeamActivity::class.java)
