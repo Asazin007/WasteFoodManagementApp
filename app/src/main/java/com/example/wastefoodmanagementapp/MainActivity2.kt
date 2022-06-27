@@ -29,11 +29,11 @@ class MainActivity2 : AppCompatActivity() {
         //------------listners
         //--------buttons
         donatebtn.setOnClickListener {
-            var intent1= Intent(this@MainActivity2,DonateActivity::class.java)
+            var intent1 = Intent(this@MainActivity2,DonateActivity::class.java)
             startActivity(intent1)
         }
         recievebtn.setOnClickListener {
-            var intent2=Intent(this@MainActivity2,ReceiveActivity::class.java)
+            var intent2 = Intent(this@MainActivity2,ReceiveActivity::class.java)
             startActivity(intent2)
         }
 
