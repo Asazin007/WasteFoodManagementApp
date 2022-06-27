@@ -33,6 +33,7 @@
         <activity
             android:name=".TeamActivity"
             android:exported="false"
+            android:label="About Team"
             android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar"/>
         <activity
             android:name=".ShoaibActivity"
