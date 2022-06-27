@@ -20,7 +20,7 @@
         <activity
             android:name=".AccountActivity"
             android:exported="false" />
-<!--        Ankit Activites ends here-->
+        <!--        Ankit Activites ends here-->
         <activity
             android:name=".DonateActivity"
             android:exported="false"
@@ -34,12 +34,12 @@
             android:name=".TeamActivity"
             android:exported="false"
             android:label="About Team"
-            android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar"/>
+            android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar" />
         <activity
             android:name=".ShoaibActivity"
             android:exported="false"
             android:label="From Shoaib Moona"
-            android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar"/>
+            android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar" />
         <activity
             android:name=".JayActivity"
             android:exported="false"
@@ -60,6 +60,9 @@
             android:exported="false"
             android:label="From Ankit Kumar"
             android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar" />
+        <activity
+            android:name=".ReceiveActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
