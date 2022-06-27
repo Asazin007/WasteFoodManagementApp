@@ -33,32 +33,32 @@
         <activity
             android:name=".TeamActivity"
             android:exported="false"
-            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"/>
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
         <activity
             android:name=".ShoaibActivity"
             android:exported="false"
             android:label="From Shoaib Moona"
-            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"/>
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
         <activity
             android:name=".JayActivity"
             android:exported="false"
             android:label="From Jayveer Mall"
-            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
             android:name=".DeveshActivity"
             android:exported="false"
             android:label="From Devesh Pandey"
-            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
             android:name=".AsimActivity"
             android:exported="false"
             android:label="From Sayed Mohd Asim"
-            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
             android:name=".AnkitActivity"
             android:exported="false"
             android:label="From Ankit Kumar"
-            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
