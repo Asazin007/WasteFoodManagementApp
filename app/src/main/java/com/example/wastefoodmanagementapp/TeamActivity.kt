@@ -82,9 +82,8 @@ class TeamActivity : AppCompatActivity() {
 //                startActivity(intent)
             }
             R.id.noti -> {
-                Toast.makeText(this@TeamActivity,"Notifications", Toast.LENGTH_SHORT).show()
-//                var intent = Intent(this@TeamActivity, MainActivity2::class.java)
-//                startActivity(intent)
+                var intent = Intent(this@TeamActivity, NotiActivity::class.java)
+                startActivity(intent)
             }
             R.id.account -> {
                 var intent = Intent(this@TeamActivity, AccountActivity::class.java)

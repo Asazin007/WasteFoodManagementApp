@@ -73,7 +73,8 @@ class AnkitActivity : AppCompatActivity() {
                 Toast.makeText(this@AnkitActivity,"Chats", Toast.LENGTH_SHORT).show()
             }
             R.id.noti -> {
-                Toast.makeText(this@AnkitActivity,"Notifications", Toast.LENGTH_SHORT).show()
+                var intent = Intent(this@AnkitActivity, NotiActivity::class.java)
+                startActivity(intent)
             }
             R.id.account -> {
                 var intent = Intent(this@AnkitActivity, AccountActivity::class.java)

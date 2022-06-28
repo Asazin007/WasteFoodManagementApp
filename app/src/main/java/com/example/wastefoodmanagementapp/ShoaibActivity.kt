@@ -73,7 +73,8 @@ class ShoaibActivity : AppCompatActivity() {
                 Toast.makeText(this@ShoaibActivity,"Chats", Toast.LENGTH_SHORT).show()
             }
             R.id.noti -> {
-                Toast.makeText(this@ShoaibActivity,"Notifications", Toast.LENGTH_SHORT).show()
+                var intent = Intent(this@ShoaibActivity, NotiActivity::class.java)
+                startActivity(intent)
             }
             R.id.account -> {
                 var intent = Intent(this@ShoaibActivity, AccountActivity::class.java)

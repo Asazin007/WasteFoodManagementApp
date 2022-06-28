@@ -74,7 +74,8 @@ class DeveshActivity : AppCompatActivity() {
                 Toast.makeText(this@DeveshActivity,"Chats", Toast.LENGTH_SHORT).show()
             }
             R.id.noti -> {
-                Toast.makeText(this@DeveshActivity,"Notifications", Toast.LENGTH_SHORT).show()
+                var intent = Intent(this@DeveshActivity, NotiActivity::class.java)
+                startActivity(intent)
             }
             R.id.account -> {
                 var intent = Intent(this@DeveshActivity, AccountActivity::class.java)
