@@ -22,10 +22,17 @@
             android:exported="false" />
         <!--        Ankit Activites ends here-->
         <activity
+            android:name=".ContributionActivity"
+            android:exported="false"
+            android:label="@string/title_activity_contribution"
+            android:theme="@style/Theme.WasteFoodManagementApp.NoActionBar" />
+        <activity
+            android:name=".NotiActivity"
+            android:exported="false" />
+        <activity
             android:name=".DonateActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustPan" />
-
         <activity
             android:name=".MainActivity2"
             android:exported="false"
@@ -69,6 +76,7 @@
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

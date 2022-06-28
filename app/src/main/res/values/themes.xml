@@ -20,4 +20,13 @@
 
         <item name="android:statusBarColor">@color/white</item>
     </style>
+
+    <style name="Theme.WasteFoodManagementApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.WasteFoodManagementApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.WasteFoodManagementApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

@@ -3,7 +3,11 @@ package com.example.wastefoodmanagementapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
+import android.widget.ArrayAdapter
 import android.widget.Button
+import android.widget.ListView
+import android.widget.Toast
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
 import com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -42,12 +46,16 @@ class MainActivity2 : AppCompatActivity() {
         BottomNavigationView.setOnItemSelectedListener {
             when(it.itemId){
                 R.id.team->{
-                    var team_intent = Intent(this, TeamActivity::class.java)
+                    var team_intent = Intent(this@MainActivity2, TeamActivity::class.java)
                     startActivity(team_intent)
                 }
                 R.id.account ->{
                     var loginintent=Intent(this,AccountActivity::class.java)
                     startActivity(loginintent)
+                }
+                R.id.noti->{
+                    var noti_activity = Intent(this@MainActivity2, NotiActivity::class.java)
+                    startActivity(noti_activity)
                 }
             }
 
