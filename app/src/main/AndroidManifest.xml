@@ -15,6 +15,16 @@
             android:label="From Shoaib Moona"
             android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"/>
         <activity
+            android:name=".My_Donate"
+            android:exported="false"
+
+            />
+        <activity
+            android:name=".My_Recieve"
+            android:exported="false"
+
+            />
+        <activity
             android:name=".JayActivity"
             android:exported="false"
             android:label="From Jayveer Mall"
