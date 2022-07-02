@@ -12,6 +12,25 @@
     <string name="receive">Receive</string>
     <string name="donated">Donate</string>
     <string name="title_activity_contribution">ContributionActivity</string>
+    <string name="teamstring"><b>WasteFood Management App</b>\nis an idea put forward by Syed Mohd Asim.
+        We strongly believe that food is not meant to wasted, it is rather to be eaten or be shared.\n
+        Whatever be the case, food being an essential part of life does not deserve to be wasted rather we feel that this app can bridge the gap between the one who has nothing and the one who has more than nothing.\n
+        Our Team Members (Sanguins), include the guy who put forward this idea himself, Mr. Asim and the supporting members including Mr. Devesh, Mr. Shoaib, Mr. Jayveer and Mr. Ankit.\n
+        The whole app has been built in sync with the 5 members as mentioned above.\n
+        You can open the Drawer Navigation Window to check the individual profile of each member as stated above.\n
+        Our whole code is available on the Github:\n
+        <a href="https://github.com/Asazin007/WasteFoodManagementApp">Click here</a> For The Code.
+    </string>
+    <string name="Shoaibxml"><b>Shoaib Moona</b>\nCurrently pursuing B.Tech Computer Science from Lovely Professional University.\nMy Contributions:\n
+        1) TeamActivity\n
+        2) Whole Drawer Navigation Layout.\n
+        3) Menu Bar and respective items.\n
+        4) All five Team Member Activities.
+    </string>
+    <string name="Deveshxml"></string>
+    <string name="Jayxml"></string>
+    <string name="Asimxml"></string>
+    <string name="Ankitxml"></string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 

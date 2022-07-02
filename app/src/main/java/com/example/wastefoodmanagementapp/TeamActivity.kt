@@ -3,14 +3,13 @@ package com.example.wastefoodmanagementapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
-import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 
 class TeamActivity : AppCompatActivity() {
@@ -19,7 +18,7 @@ class TeamActivity : AppCompatActivity() {
     lateinit var drawerLayout: DrawerLayout
     lateinit var navigationView: NavigationView
     lateinit var toggle: ActionBarDrawerToggle
-
+    lateinit var body: TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_team)
@@ -27,6 +26,7 @@ class TeamActivity : AppCompatActivity() {
         //-----------------------DrawerLayout And Navigation View---------------------------------
         drawerLayout = findViewById(R.id.drawerLayout)
         navigationView = findViewById(R.id.navigationView)
+        body = findViewById(R.id.body)
         toggle = ActionBarDrawerToggle(this@TeamActivity, drawerLayout, R.string.Open, R.string.Close)
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
@@ -58,7 +58,7 @@ class TeamActivity : AppCompatActivity() {
             true
         }
 
-
+        body.movementMethod = LinkMovementMethod.getInstance() //Activates the Github Link
 
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -78,8 +78,7 @@ class TeamActivity : AppCompatActivity() {
             }
             R.id.chat -> {
                 Toast.makeText(this@TeamActivity,"Chats", Toast.LENGTH_SHORT).show()
-//                var intent = Intent(this@TeamActivity, MainActivity2::class.java)
-//                startActivity(intent)
+
             }
             R.id.noti -> {
                 var intent = Intent(this@TeamActivity, NotiActivity::class.java)
