@@ -10,16 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WasteFoodManagementApp">
         <activity
-            android:name=".My_Recieve"
-            android:exported="false" />
-        <activity
-            android:name=".My_Donate"
-            android:exported="false" />
-        <activity
             android:name=".ShoaibActivity"
             android:exported="false"
             android:label="From Shoaib Moona"
-            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar" />
+            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"/>
         <activity
             android:name=".JayActivity"
             android:exported="false"

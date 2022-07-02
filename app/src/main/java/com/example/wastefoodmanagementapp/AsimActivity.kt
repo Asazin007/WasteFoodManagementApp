@@ -73,10 +73,12 @@ class AsimActivity : AppCompatActivity() {
                 Toast.makeText(this@AsimActivity,"Chats", Toast.LENGTH_SHORT).show()
             }
             R.id.noti -> {
-                Toast.makeText(this@AsimActivity,"Notifications", Toast.LENGTH_SHORT).show()
+                var intent = Intent(this@AsimActivity, NotiActivity::class.java)
+                startActivity(intent)
             }
             R.id.account -> {
-                Toast.makeText(this@AsimActivity,"Account details", Toast.LENGTH_SHORT).show()
+                var intent = Intent(this@AsimActivity, AccountActivity::class.java)
+                startActivity(intent)
             }
             R.id.team -> {
                 var intent = Intent(this@AsimActivity, TeamActivity::class.java)

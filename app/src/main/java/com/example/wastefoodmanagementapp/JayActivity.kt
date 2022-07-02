@@ -73,10 +73,12 @@ class JayActivity : AppCompatActivity() {
                 Toast.makeText(this@JayActivity,"Chats", Toast.LENGTH_SHORT).show()
             }
             R.id.noti -> {
-                Toast.makeText(this@JayActivity,"Notifications", Toast.LENGTH_SHORT).show()
+                var intent = Intent(this@JayActivity, NotiActivity::class.java)
+                startActivity(intent)
             }
             R.id.account -> {
-                Toast.makeText(this@JayActivity,"Account details", Toast.LENGTH_SHORT).show()
+                var intent = Intent(this@JayActivity, AccountActivity::class.java)
+                startActivity(intent)
             }
             R.id.team -> {
                 var intent = Intent(this@JayActivity, TeamActivity::class.java)
