@@ -70,6 +70,14 @@ class DonateActivity : AppCompatActivity() {
                 flag=-1
             }
         }
+        fab_donate.setOnClickListener {
+            var upload_intent = Intent(this, My_Donate::class.java)
+            startActivity(upload_intent)
+        }
+        fab_recive.setOnClickListener {
+            var receive_intent = Intent(this, My_Recieve::class.java)
+            startActivity(receive_intent)
+        }
     }
 
 }
