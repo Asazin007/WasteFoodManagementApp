@@ -8,14 +8,12 @@
         <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/layout/activity_donate.xml" value="0.25" />
         <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/layout/activity_main2.xml" value="0.16" />
-        <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/layout/activity_my_recieve.xml" value="0.25" />
-        <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/layout/activity_noti.xml" value="0.1" />
-        <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/layout/activity_recieve.xml" value="0.264" />
         <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/layout/row.xml" value="0.25" />
         <entry key="..\:/Users/91630/AndroidStudioProjects/WasteFoodManagementApp2/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_account.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_ankit.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_asim.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_contribution.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_devesh.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_donate.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_jay.xml" value="0.25416666666666665" />
@@ -23,11 +21,14 @@
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_mainfirst.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_my_donate.xml" value="0.24193548387096775" />
+        <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_my_recieve.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_noti.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_recieve.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_shoaib.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_team.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_shoaib.xml" value="0.264" />
+        <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/activity_team.xml" value="0.2" />
+        <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/content_scrolling.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/layout/header_team.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Shoaib Moona/AndroidStudioProjects/WasteFoodManagementApp/app/src/main/res/menu/nav_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/WasteFoodManagementApp/app/src/main/res/layout/activity_account.xml" value="0.25416666666666665" />

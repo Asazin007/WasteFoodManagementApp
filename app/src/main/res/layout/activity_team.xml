@@ -36,7 +36,6 @@
             android:background="@color/greenish"
             android:fontFamily="serif"
             android:lineSpacingExtra="3sp"
-            android:scrollbars="vertical"
             android:text="@string/teamstring"
             android:textAlignment="center"
             android:textColor="@color/black"

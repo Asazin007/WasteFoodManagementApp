@@ -12,7 +12,7 @@
     <string name="receive">Receive</string>
     <string name="donated">Donate</string>
     <string name="title_activity_contribution">ContributionActivity</string>
-    <string name="teamstring"><b>WasteFood Management App</b>\nis an idea put forward by Syed Mohd Asim.
+    <string name="teamstring"><b>WasteFood Management App</b> \nis an idea put forward by Syed Mohd Asim.
         We strongly believe that food is not meant to wasted, it is rather to be eaten or be shared.\n
         Whatever be the case, food being an essential part of life does not deserve to be wasted rather we feel that this app can bridge the gap between the one who has nothing and the one who has more than nothing.\n
         Our Team Members (Sanguins), include the guy who put forward this idea himself, Mr. Asim and the supporting members including Mr. Devesh, Mr. Shoaib, Mr. Jayveer and Mr. Ankit.\n
@@ -121,7 +121,7 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
-<!--    Strings By Ankit below-->
+    <!--    Strings By Ankit below-->
     <string name="main_title">Hello You!</string>
     <string name="main_subtitle">
         Nice to meet you come and join our community!
@@ -148,5 +148,6 @@
     <string name="login_email">Your email or username</string>
     <string name="login_password">Enter password</string>
     <string name="login_forgpass">Forgot password?</string>
-<!--    String by Ankit ends here-->
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <!--    String by Ankit ends here-->
 </resources>
