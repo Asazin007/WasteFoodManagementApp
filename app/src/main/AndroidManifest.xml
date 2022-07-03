@@ -75,6 +75,10 @@
             android:exported="false"
             android:windowSoftInputMode="adjustPan" />
         <activity
+            android:name=".ReceiveActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false"
             android:windowSoftInputMode="adjustPan" />

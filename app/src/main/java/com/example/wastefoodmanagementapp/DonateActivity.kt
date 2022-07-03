@@ -44,6 +44,14 @@ class DonateActivity : AppCompatActivity() {
                     var team_intent = Intent(this, TeamActivity::class.java)
                     startActivity(team_intent)
                 }
+                R.id.account ->{
+                    var loginintent=Intent(this,AccountActivity::class.java)
+                    startActivity(loginintent)
+                }
+                R.id.noti->{
+                    var noti_activity = Intent(this, NotiActivity::class.java)
+                    startActivity(noti_activity)
+                }
                 R.id.home_menu->{
                     var home_intent = Intent(this, MainActivity2::class.java)
                     startActivity(home_intent)
