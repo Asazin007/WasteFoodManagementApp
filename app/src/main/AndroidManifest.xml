@@ -35,6 +35,7 @@
         <activity
             android:name=".ContributionActivity"
             android:exported="false"
+            android:parentActivityName=".NotiActivity"
             android:label="@string/title_activity_contribution"
             android:theme="@style/Theme.WasteFoodManagementApp.NoActionBar" />
         <activity

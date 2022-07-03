@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "241703374584",
+    "firebase_url": "https://wastefoodmanagementapp-4e3bd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "wastefoodmanagementapp-4e3bd",
+    "storage_bucket": "wastefoodmanagementapp-4e3bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241703374584:android:c37093dd743d468ea8f50d",
+        "android_client_info": {
+          "package_name": "com.example.wastefoodmanagementapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241703374584-a0acir7gm11483beiukudnvf59tlvodt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1u7yQOzK6wB6Dx2DQm1DioVzvnJkLNGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241703374584-a0acir7gm11483beiukudnvf59tlvodt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
