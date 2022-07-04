@@ -21,13 +21,20 @@
         Our whole code is available on the Github:\n
         <a href="https://github.com/Asazin007/WasteFoodManagementApp">Click here</a> For The Code.
     </string>
-    <string name="Shoaibxml"><b>Shoaib Moona</b>\nCurrently pursuing B.Tech Computer Science from Lovely Professional University.\nMy Contributions:\n
+    <string name="Shoaibxml"><b>Shoaib Moona</b>\nCurrently pursuing B.Tech Computer Science from Lovely Professional University.\nMy Contributions:\n\n
         1) TeamActivity\n
         2) Whole Drawer Navigation Layout.\n
         3) Menu Bar and respective items.\n
         4) All five Team Member Activities.
     </string>
-    <string name="Deveshxml"></string>
+    <string name="Deveshxml">I\'m <b>Devesh Pandey</b>\nCurrently pursuing my Bachelors degree( Computer Science &amp; Engineering ) from LPU. Along with this I am also learning <b>Android App Development</b> &amp; <b>Full Stack web development</b>.\n\nMy contributions :\n
+        1) Splash Screen.\n
+        2) Logo/Layout of home activity.\n
+        3) Sliding Animation.\n
+        4) Gradient colour Design.\n
+        5) My own activity ( in teams ).
+    </string>
+
     <string name="Jayxml"></string>
     <string name="Asimxml"></string>
     <string name="Ankitxml"></string>
