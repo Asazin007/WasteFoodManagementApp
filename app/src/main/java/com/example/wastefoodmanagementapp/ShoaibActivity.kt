@@ -3,8 +3,10 @@ package com.example.wastefoodmanagementapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
@@ -16,10 +18,15 @@ class ShoaibActivity : AppCompatActivity() {
     lateinit var drawerLayout: DrawerLayout
     lateinit var navigationView: NavigationView
     lateinit var toggle: ActionBarDrawerToggle
-
+    lateinit var body: TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_shoaib)
+
+        body = findViewById(R.id.textView)
+
+        body.movementMethod = LinkMovementMethod.getInstance() //Activates the Github link.
+
         //-----------------------DrawerLayout And Navigation View---------------------------------
         drawerLayout = findViewById(R.id.drawerLayout)
         navigationView = findViewById(R.id.navigationView)

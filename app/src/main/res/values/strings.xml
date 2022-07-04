@@ -21,11 +21,14 @@
         Our whole code is available on the Github:\n
         <a href="https://github.com/Asazin007/WasteFoodManagementApp">Click here</a> For The Code.
     </string>
-    <string name="Shoaibxml"><b>Shoaib Moona</b>\nCurrently pursuing B.Tech Computer Science from Lovely Professional University.\nMy Contributions:\n\n
+    <string name="Shoaibxml"><b>Shoaib Moona</b>\nCurrently pursuing B.Tech Computer Science from Lovely Professional University.\nMy Contributions:\n
         1) TeamActivity\n
         2) Whole Drawer Navigation Layout.\n
         3) Menu Bar and respective items.\n
-        4) All five Team Member Activities.
+        4) Layout for all five Team Member Activities.\n
+        5) Firebase support (fab, custom model class, CRD operations.)\n
+        6) Custom Array Adapter (list view - NotiAdapter)\n
+         <a href="https://github.com/shoaibmoona">Click here</a> for Github
     </string>
     <string name="Deveshxml">I\'m <b>Devesh Pandey</b>\nCurrently pursuing my Bachelors degree( Computer Science &amp; Engineering ) from LPU. Along with this I am also learning <b>Android App Development</b> &amp; <b>Full Stack web development</b>.\n\nMy contributions :\n
         1) Splash Screen.\n
