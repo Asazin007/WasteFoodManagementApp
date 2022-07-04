@@ -38,9 +38,19 @@
         5) My own activity ( in teams ).
     </string>
 
-    <string name="Jayxml"></string>
+    <string name="Jayxml">I\'m <b>Jayveer Mall</b>\nCurrently pursuing Bachelors degree( Computer Science &amp; Engineering) (Hons) from LPU.\n
+        My Contributions:\n
+        1) Notification Activity\n
+        2) Contribution Activity\n
+        3) Binding toolbar layout for content scrolling styled xml
+    </string>
     <string name="Asimxml"></string>
-    <string name="Ankitxml"></string>
+    <string name="Ankitxml">I\'m <b>Ankit Kumar</b>\nCurrently pursuing Bacherlors degree (Computer Science &amp; Engineeing) from LPU.\n
+        My Contributions:\n
+        1) Account Activity\n
+        2) Login Activity (Layout and all)\n
+        3) Register Activity (Layout and all)
+    </string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 

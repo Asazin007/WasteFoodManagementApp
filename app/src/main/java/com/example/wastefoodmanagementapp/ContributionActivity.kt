@@ -3,12 +3,8 @@ package com.example.wastefoodmanagementapp
 import android.os.Bundle
 import android.widget.TextView
 import android.widget.Toast
-import com.google.android.material.appbar.CollapsingToolbarLayout
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import com.example.wastefoodmanagementapp.databinding.ActivityContributionBinding
-import org.w3c.dom.Text
 
 class ContributionActivity : AppCompatActivity() {
 
@@ -43,6 +39,5 @@ class ContributionActivity : AppCompatActivity() {
         edt_location.setText(location)
         edt_phone.setText(phone)
         edt_description.setText(description)
-        Toast.makeText(this, "ID: ${id}", Toast.LENGTH_SHORT).show()
     }
 }
