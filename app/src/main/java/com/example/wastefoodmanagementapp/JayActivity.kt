@@ -70,7 +70,7 @@ class JayActivity : AppCompatActivity() {
                 startActivity(intent)
             }
             R.id.chat -> {
-                Toast.makeText(this@JayActivity,"Chats", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@JayActivity,"Chat feature not supported currently.", Toast.LENGTH_SHORT).show()
             }
             R.id.noti -> {
                 var intent = Intent(this@JayActivity, NotiActivity::class.java)

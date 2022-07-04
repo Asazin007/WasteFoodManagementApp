@@ -77,7 +77,7 @@ class TeamActivity : AppCompatActivity() {
                 startActivity(intent)
             }
             R.id.chat -> {
-                Toast.makeText(this@TeamActivity,"Chats", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@TeamActivity,"Chat feature not supported currently.", Toast.LENGTH_SHORT).show()
 
             }
             R.id.noti -> {

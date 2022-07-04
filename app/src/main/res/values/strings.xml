@@ -26,7 +26,7 @@
         2) Whole Drawer Navigation Layout.\n
         3) Menu Bar and respective items.\n
         4) Layout for all five Team Member Activities.\n
-        5) Firebase support (fab, custom model class, CRD operations.)\n
+        5) Firebase support (for fab, custom model class, CRD operations.)\n
         6) Custom Array Adapter (list view - NotiAdapter)\n
          <a href="https://github.com/shoaibmoona">Click here</a> for Github
     </string>
@@ -44,8 +44,15 @@
         2) Contribution Activity\n
         3) Binding toolbar layout for content scrolling styled xml
     </string>
-    <string name="Asimxml"></string>
-    <string name="Ankitxml">I\'m <b>Ankit Kumar</b>\nCurrently pursuing Bacherlors degree (Computer Science &amp; Engineeing) from LPU.\n
+    <string name="Asimxml">I\'m <b>Mohd Asim</b>,\nCurrently pursuing Currently pursuing Bachelors degree (Computer Science &amp; Engineeing) from LPU.\n
+        My Contributions:\n
+        1) Home Activity\n
+        2) Donate Button\n
+        3) Bottom Navigation\n
+        4) Floating Action Button (Donate and Receive)
+    </string>
+
+    <string name="Ankitxml">I\'m <b>Ankit Kumar</b>\nCurrently pursuing Bachelors degree (Computer Science &amp; Engineeing) from LPU.\n
         My Contributions:\n
         1) Account Activity\n
         2) Login Activity (Layout and all)\n

@@ -70,7 +70,7 @@ class AnkitActivity : AppCompatActivity() {
                 startActivity(intent)
             }
             R.id.chat -> {
-                Toast.makeText(this@AnkitActivity,"Chats", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@AnkitActivity,"Chat feature not supported currently.", Toast.LENGTH_SHORT).show()
             }
             R.id.noti -> {
                 var intent = Intent(this@AnkitActivity, NotiActivity::class.java)

@@ -70,7 +70,7 @@ class AsimActivity : AppCompatActivity() {
                 startActivity(intent)
             }
             R.id.chat -> {
-                Toast.makeText(this@AsimActivity,"Chats", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@AsimActivity,"Chat feature not supported currently.", Toast.LENGTH_SHORT).show()
             }
             R.id.noti -> {
                 var intent = Intent(this@AsimActivity, NotiActivity::class.java)

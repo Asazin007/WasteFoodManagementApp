@@ -57,6 +57,9 @@ class MainActivity2 : AppCompatActivity() {
                     var noti_activity = Intent(this@MainActivity2, NotiActivity::class.java)
                     startActivity(noti_activity)
                 }
+                R.id.chat -> {
+                    Toast.makeText(this, "Chat feature not supported currently.", Toast.LENGTH_SHORT).show()
+                }
             }
 
             true

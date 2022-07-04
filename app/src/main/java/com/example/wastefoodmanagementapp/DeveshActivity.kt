@@ -71,7 +71,7 @@ class DeveshActivity : AppCompatActivity() {
                 startActivity(intent)
             }
             R.id.chat -> {
-                Toast.makeText(this@DeveshActivity,"Chats", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@DeveshActivity,"Chat feature not supported currently.", Toast.LENGTH_SHORT).show()
             }
             R.id.noti -> {
                 var intent = Intent(this@DeveshActivity, NotiActivity::class.java)
