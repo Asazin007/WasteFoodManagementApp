@@ -16,8 +16,8 @@ class NotiAdapter(var ctx: Context, var customXml: Int, var donationDetails: Arr
     ArrayAdapter<donationsModel>(ctx,customXml,donationDetails) {
         val layoutInflater: LayoutInflater = LayoutInflater.from(ctx)
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-        var view: View
-        var viewNotiHolder: ViewNotificationHolder
+        val view: View
+        val viewNotiHolder: ViewNotificationHolder
         if (convertView == null) {
            view = layoutInflater.inflate(customXml, null)
             viewNotiHolder = ViewNotificationHolder(view)
