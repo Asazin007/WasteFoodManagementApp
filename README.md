@@ -8,11 +8,11 @@ A small demo application based on basic Android application tech.
 <br>
 <img src="/images/preview2.png"/>
 </p>
-<br>
 
 ## Download
 
 Go to the [Releases](https://github.com/Asazin007/WasteFoodManagementApp/releases/tag/v1.0.0) to download the zip.
+
 Or directly [Download](https://github.com/Asazin007/WasteFoodManagementApp/releases/download/v1.0.0/app-debug.apk)APK.
 
 ## Features
