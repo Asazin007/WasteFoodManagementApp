@@ -24,4 +24,4 @@ Or directly [Download](https://github.com/Asazin007/WasteFoodManagementApp/relea
 - Bottom Navigation Bar
 - ListView
 - Drawer Layout
-- Firebase(Database)
+- Firebase(Realtime Database)
